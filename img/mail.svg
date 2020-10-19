@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="40" viewBox="0 0 360 40">
+  <g id="Сгруппировать_216" data-name="Сгруппировать 216" transform="translate(-6626 5382)">
+    <rect id="Email" width="360" height="40" rx="18" transform="translate(6626 -5382)" fill="#fff"/>
+    <text id="kema.st_mail.ru_" data-name="kema.st@mail.ru " transform="translate(6737.185 -5381)" fill="#313234" font-size="26" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="27">kema.st@mail.ru </tspan></text>
+    <path id="Контур_44" data-name="Контур 44" d="M0,0V40" transform="translate(6695 -5382)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="envelope-regular" d="M34.438,64H3.563A3.594,3.594,0,0,0,0,67.625v21.75A3.594,3.594,0,0,0,3.563,93H34.438A3.594,3.594,0,0,0,38,89.375V67.625A3.594,3.594,0,0,0,34.438,64Zm0,3.625v3.082c-1.664,1.379-4.317,3.523-9.989,8.042-1.25,1-3.726,3.4-5.449,3.376-1.722.028-4.2-2.376-5.449-3.376-5.671-4.518-8.325-6.663-9.989-8.042V67.625ZM3.563,89.375V75.358c1.7,1.378,4.112,3.312,7.788,6.241,1.622,1.3,4.463,4.168,7.649,4.15,3.17.017,5.975-2.809,7.648-4.15,3.676-2.929,6.088-4.864,7.789-6.242V89.375Z" transform="translate(6644 -5440)" fill="#313234"/>
+  </g>
+</svg>
