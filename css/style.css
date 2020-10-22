@@ -26,11 +26,23 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: #283136;
+  background: linear-gradient(#FDF8F8, rgba(0, 144, 255, 0.39));
 
 }
 
 a {
   text-decoration: none;
+}
+
+h4 {
+  font-size: 30px;
+  color: #006EBD;
+}
+
+p {
+  font-size: 20px;
+  color: #969696;
+  font-weight: 600;
 }
 
 img {
@@ -159,13 +171,54 @@ input[type="radio"].visually-hidden {
   color: #F2F2F2;
 }
 
-main {
-  height: 100vh;
-}
-
 .git {
   margin-top: 96px;
   margin-left: 10%;
 
   width: 1200px;
 }
+
+.features {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  
+  width: 1244px;
+}
+
+.feature {
+  margin-top: 80px;
+}
+
+.sign {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  font-weight: 600;
+  color: #707070;
+}
+
+.section {
+  position: relative;
+  margin: 0 auto;
+  width: 1244px;
+  margin-top: 150px;
+}
+
+.pool {
+  float: right;
+}
+
+.text-block {
+  position: absolute;
+  width: 640px;
+  height: 280px;
+  background: #F2F2F2;
+  margin-top: 130px;
+  margin-left: 40px;
+  padding-top: 90px;
+  padding-left: 50px;
+}
+
