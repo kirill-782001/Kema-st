@@ -34,8 +34,15 @@ a {
   text-decoration: none;
 }
 
-h4 {
+h3 {
   font-size: 30px;
+  color: #006EBD;
+}
+
+h2 {
+  margin-top: 55px;
+  margin-bottom: 0;
+  font-size: 50px;
   color: #006EBD;
 }
 
@@ -185,6 +192,7 @@ input[type="radio"].visually-hidden {
   justify-content: space-around;
   
   width: 1244px;
+  margin-bottom: 60px;
 }
 
 .feature {
@@ -194,31 +202,85 @@ input[type="radio"].visually-hidden {
 .sign {
   display: flex;
   flex-direction: column;
+}
 
+.services {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1240px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.block-description {
+  position: absolute;
+  left: 0;
+  width: 560px;
+  padding: 110px 47px 125px 47px;
+  background-color: #f2f2f2;
+}
+
+.text-right {
+  justify-content: flex-start;
+}
+
+.text-right .block-description {
+  left: auto;
+  right: 0;
+}
+
+.stage-main {
+  width: 100%;
+  height: 450px;
+  background-color: #F2F2F2;
+}
+
+.stage {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  
+  width: 1244px;
+}
+
+.text-stage {
   text-align: center;
   font-weight: 600;
   color: #707070;
+  font-size: 30px;
 }
 
-.section {
-  position: relative;
+.footer {
   margin: 0 auto;
-  width: 1244px;
-  margin-top: 150px;
+  height: 500px;
+  width: 1240px;
 }
 
-.pool {
-  float: right;
+.mail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 745px;
+  height: 375px;
+  margin-top: 50px;
+  border-radius: 202px;
+  background-color: rgb(253, 253, 253, 0.5);
+  text-align: center;
 }
 
-.text-block {
-  position: absolute;
-  width: 640px;
-  height: 280px;
-  background: #F2F2F2;
-  margin-top: 130px;
-  margin-left: 40px;
-  padding-top: 90px;
-  padding-left: 50px;
+.vl {
+  border-left: 2px solid #707070;
+  height: 375px;
 }
 
+.text-mail {
+  color: #006EBD;
+}
