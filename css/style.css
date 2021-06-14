@@ -186,27 +186,6 @@ input[type="radio"].visually-hidden {
   width: 1200px;
 }
 
-.features {
-  position: relative;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  
-  width: 1244px;
-  margin-bottom: 60px;
-}
-
-.feature {
-  margin-top: 80px;
-  margin-left: 80px;
-  text-align: center;
-}
-
-.sign {
-  display: flex;
-  flex-direction: column;
-}
-
 .services {
   position: relative;
   display: flex;
@@ -214,6 +193,7 @@ input[type="radio"].visually-hidden {
   align-items: center;
   width: 1240px;
   margin: 0 auto;
+  margin-top: 80px;
   margin-bottom: 80px;
 }
 
@@ -233,33 +213,6 @@ input[type="radio"].visually-hidden {
 .text-right .block-description {
   left: auto;
   right: 0;
-}
-
-.stage-main {
-  width: 100%;
-  height: 450px;
-  background-color: #F2F2F2;
-}
-
-.stage {
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  position: relative;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  
-  width: 1244px;
-}
-
-.text-stage {
-  text-align: center;
-  font-weight: 600;
-  color: #707070;
-  font-size: 30px;
 }
 
 .footer {
