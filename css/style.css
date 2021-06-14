@@ -81,8 +81,9 @@ input[type="radio"].visually-hidden {
 
   background: url("../img/pool.jpg") center no-repeat;
     
-  width: 100%;
-  height: 100vh;
+  max-width: 1519px;
+  height: 750px;
+  margin: 0 auto;
   
   -webkit-background-size: cover;
   background-size: cover;
@@ -157,7 +158,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;  
 
-  margin-top: 15vh;
+  margin-top: 150px;
 }
 
 .text {
@@ -197,6 +198,8 @@ input[type="radio"].visually-hidden {
 
 .feature {
   margin-top: 80px;
+  margin-left: 80px;
+  text-align: center;
 }
 
 .sign {
@@ -220,6 +223,7 @@ input[type="radio"].visually-hidden {
   width: 560px;
   padding: 110px 47px 125px 47px;
   background-color: #f2f2f2;
+  
 }
 
 .text-right {
@@ -261,26 +265,50 @@ input[type="radio"].visually-hidden {
 .footer {
   margin: 0 auto;
   height: 500px;
-  width: 1240px;
+  width: 373px;
 }
+
+.footer-main {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 57px;
+  margin-bottom: 35px;
+  font-size: 40px;
+  color: #F2F2F2;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social1 {
+  border-radius: 20px;
+  box-shadow: 6px 6px 8px #636A6D;
+}
+
+
+
+.tel1 {
+  display: flex;
+  justify-content: center;
+  color: #313234;
+  font-size: 40px;
+} 
 
 .mail {
+  margin-top: 60px;
+}
+
+.footer-logo {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 745px;
-  height: 375px;
-  margin-top: 50px;
-  border-radius: 202px;
-  background-color: rgb(253, 253, 253, 0.5);
-  text-align: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 1250px;
 }
 
-.vl {
-  border-left: 2px solid #707070;
-  height: 375px;
-}
-
-.text-mail {
-  color: #006EBD;
+.mar {
+  margin-left: 15px;
 }
